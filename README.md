@@ -1,8 +1,10 @@
 # Calvin Dobbs
 
-Software engineer focused on backend systems, cloud infrastructure, and AI developer tooling.
+Backend, cloud, and AI infrastructure engineer. Computer Science and Mathematics at the University of Toronto, graduating May 2028.
 
-Computer Science and Mathematics at the University of Toronto, graduating May 2028. Engineering Project Manager at UTMIST; previously a backend intern at Asigra and full-stack intern at Enginess.
+I build and deploy AWS-backed systems, debug concurrency and data-consistency failures, and lead teams delivering infrastructure for AI agents. Most recently, I led eight developers building a secure gateway for Agentiiv and implemented the deployment of nine containerized services on AWS ECS Fargate.
+
+Seeking Summer 2027 software engineering internships.
 
 [Portfolio website](https://calvindobbs.com) · [LinkedIn](https://www.linkedin.com/in/calvin-dobbs) · [Résumé](https://calvindobbs.com/resume.pdf)
 
@@ -10,9 +12,11 @@ Computer Science and Mathematics at the University of Toronto, graduating May 20
 
 ### [AfterShock](https://github.com/CalvinDobbs/aftershock)
 
-**Autonomous QA and repair for every commit.**
+**Autonomous browser QA and repair for GitHub changes.**
 
-I implemented major end-to-end systems for browser-based QA: typed assignment and event contracts; observable Stagehand and Browserbase runs; durable telemetry, screenshots, replay, and a live control-room UI; plus diagnosis, Codex-backed patch generation, deterministic re-verification, and verified GitHub publishing.
+Turns a code change into an evidence-backed browser QA run that reproduces regressions, generates a patch, replays the failing journey, and publishes a repair PR only after verification passes.
+
+**My work:** built the typed contracts and orchestration connecting each pipeline stage, instrumented Stagehand and Browserbase runs with durable telemetry and screenshot replay, and implemented diagnosis, Codex-backed patch generation, deterministic re-verification, and verified GitHub publishing. In a live rehearsal, the system found two failures and opened a verified repair PR in approximately three minutes.
 
 `TypeScript` · `React` · `Next.js` · `Stagehand` · `Browserbase` · `SSE` · `GitHub API`
 
@@ -20,9 +24,11 @@ I implemented major end-to-end systems for browser-based QA: typed assignment an
 
 ### [Crafter](https://github.com/CalvinDobbs/crafter)
 
-**A Minecraft-to-robot stack that turns virtual structures into physical build plans.**
+**A Minecraft-to-robot system that turns virtual structures into physical builds.**
 
-I built the Fabric Structure Scanner and core robot software: Python adapters for live perception and persistent world state; actions for surveying, approaching, picking, placing, and navigation; IMU-verified closed-loop motion; and offline simulation, operator controls, and debug tooling.
+Converts structures designed in Minecraft into robot-readable blueprints for a robot that can locate physical blocks and reproduce the build in the real world.
+
+**My work:** built a Minecraft mod that scans nearby structures into robot-readable blueprints, plus the core robot-control software for live perception, autonomous surveying, block placement, navigation, offline simulation, and operator debugging.
 
 `Python` · `Java` · `Fabric` · `Computer vision` · `Robot control` · `HTML/CSS/JavaScript`
 
@@ -30,9 +36,9 @@ I built the Fabric Structure Scanner and core robot software: Python adapters fo
 
 ### [The Mind Museum](https://github.com/BryanYeeee/TheMindMuseum)
 
-**An AI-generated 3D learning environment that turns notes into explorable exhibits.**
+**A generative 3D learning environment that turns notes into explorable exhibits.**
 
-I implemented the initial Flask and Docker backend and asynchronous SSE world-generation pipeline; integrated Gemini-driven artifact generation and image-to-3D model creation; and built interactive React and Three.js interfaces for exhibits, paintings, and museum navigation.
+**My work:** built the initial Flask and Docker backend and asynchronous SSE world-generation pipeline, then integrated Gemini-driven artifact generation, image-to-3D creation, and interactive React and Three.js museum experiences.
 
 `Python` · `Flask` · `Next.js` · `React Three Fiber` · `Three.js` · `Gemini` · `Docker` · `SSE`
 
