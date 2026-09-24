@@ -1,8 +1,8 @@
 # Calvin Dobbs
 
-Backend, cloud, and AI infrastructure engineer. Computer Science and Mathematics at the University of Toronto, graduating May 2028.
+Software engineer focused on backend, cloud, and AI infrastructure. Computer Science and Mathematics at the University of Toronto, graduating May 2028.
 
-I build and deploy AWS-backed systems, debug concurrency and data-consistency failures, and lead teams delivering infrastructure for AI agents. Most recently, I led eight developers building a secure gateway for Agentiiv and implemented the deployment of nine containerized services on AWS ECS Fargate.
+Most recently, I led eight developers building a secure gateway for Agentiiv and implemented the deployment of nine containerized services on AWS ECS Fargate.
 
 Seeking Summer 2027 software engineering internships.
 
